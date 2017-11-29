@@ -19,7 +19,7 @@ default = []
 opaque-keys = []
 
 [dependencies]
-slog = "2.0.12"
+slog = { git = 'https://github.com/valarauca/slog', branch = 'Opaque_keys', features = ["opaque-keys"]}
 serde_json = "1"
 serde = "1"
 chrono = "0.4"
